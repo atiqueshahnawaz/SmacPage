@@ -16,7 +16,7 @@
                 <div class="col-xl-6 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1>YOUR ONLINE BUSINESS DESERVES A DIGITAL PRESRENCE<h1>
                     <h2>We Understand Your Growth, Making it Simpler with Custom Digital Solutions<h2>
-                    <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
+                    <!-- <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div> -->
                 </div>
 
                 <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
@@ -355,14 +355,9 @@
 
                         <div class="col-lg-6 ">
 
-                            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239486.6341958169!2d85.68036489068385!3d20.301150447781467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1588852733900!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-
-
-
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14968.47961622093!2d85.8685834!3d20.2953035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x54492cdaa5c527f3!2sSmacPage!5e0!3m2!1sen!2sin!4v1590580253645!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                            
                         </div>
-
-
-
                         <div class="col-lg-6">
 
                             <form action="forms/contact.php" method="post" role="form" class="php-email-form">

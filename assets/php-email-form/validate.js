@@ -245,7 +245,42 @@ jQuery(document).ready(function($) {
     return false;
 
   });
+  
+  $('form.php-subscrition-form').submit(function() {
+    var reg = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+    if($('#emailField').val()=="" || $('#emailField').val()==undefined)
+    {
+      $('.validate').html('* Email Address is required');
+      return false;
+    }
+    else if (reg.test($('#emailField').val()) == false) 
+    {
+      $('.validate').html('Invalid Email Address');
+      return false;
+    }
+    else{
+      $('.validate').html();
+      var str = $(this).serialize();
+      $.ajax({
+        type: "POST",
+        url: base_url + 'contact/send_subscription',
+        data: str,
+        success: function(msg) {
+          if (msg == 'success') {
+            $('.validate').css('color','green');
+            $('.validate').html("Successfully subscribed");
+  
+  
+          } else {
+  
+            $('.validate').html("Unable to subscribe");
 
+          }
+        }
+        });
+        return false;
+      }
+  });
 
 
 });

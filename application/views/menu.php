@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-10 d-flex align-items-center">
                 <h1 class="logo mr-auto">
-                    <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/final-logo.png"></a>
+                    <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/smacpage logo.png"></a>
                 </h1>
                 
                 <nav class="nav-menu d-none d-lg-block">

@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <span><img style="margin-bottom:10px" src="<?php echo base_url(); ?>assets/img/final-logo.png" width="150px"></span>
+                    <span><img style="margin-bottom:10px" src="<?php echo base_url(); ?>assets/img/smacpage logo.png" width="150px"></span>
                     <!--<h3>Smacpage</h3>-->
                     <p>Plot No: BE 59, Palasuni, Bhubaneswar<br>
                     Pin-751010,<br>
@@ -15,30 +15,35 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('why-us'); ?>">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('terms-of-service'); ?>">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('terms-of-service'); ?>">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('privacy-policy'); ?>">Privacy policy</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Social Media Optimization</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Designing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Software Development</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('services/digital-marketing'); ?>">Digital Marketing</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('services/social-media-optimization'); ?>">Social Media Optimization</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('services/web-designing'); ?>">Web Designing</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('services/web-development'); ?>">Web Development</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url('services/software-development'); ?>">Software Development</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Get an Audit Report</h4>
                     <p>Click subscribe to get your website's audit report absolutely free, right into your inbox.</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    <form method="post" class="php-subscrition-form">
+                    <div lass="col-md-6 form-group">                        
+                    <input type="text" class="form-control" name="email" id="emailField" placeholder="Your Email"  />
+                     </div>
+                        <input type="submit" id="subscribeMail" value="Subscribe">
                     </form>
+                    <span style="color:red;"class="validate"></span>
+
                 </div>
             </div>
         </div>
@@ -52,10 +57,10 @@
                 </div>
             </div>
             <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://twitter.com/SmacPage" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/hellosmacpage/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/smacpage/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/smac-page-60a1671aa/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
         </div>
     </div>

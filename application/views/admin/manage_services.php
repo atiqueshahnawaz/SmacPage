@@ -65,12 +65,16 @@
 												$page_url = $rows['page_url'];
 												$description = $rows['description'];
 												$status = $rows['status'];
+												$des= strip_tags($description);
+												$des = substr($des,0,150);
 										?>
 										<tr>
 											<td><?php echo $cnt; ?></td>
 											<td><?php echo $service_name; ?></td>
 											<td><?php echo $page_url; ?></td>
-											<td><?php echo $this->Common_model->short_str($description, 140); ?></td>
+											<!-- <td><?php //echo $this->Common_model->short_str($description, 140); ?></td> -->
+											<td><?php echo $des;
+												//echo nl2br($description); ?></td>
 											<td>
 												<?php if($status==1) { ?>
 													<span class="status" data-id="<?php echo "status-".$service_id; ?>"><a href="javascript:void(0)" title="Status is active. Click here to make it inactive."><span class="label-custom label label-success">Active</span></a></span>
