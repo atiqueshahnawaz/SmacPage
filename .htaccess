@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|phpinfo\.php|assets|blog|uploads|userfiles|temp_upload|application|sitemap\.xml|robots\.txt|gyan\.rss|urllist\.txt|google30078a84cb50d445\.html)
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
